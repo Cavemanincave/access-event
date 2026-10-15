@@ -29,4 +29,8 @@ jobs:
         run: grep -q "accessibility" utils/accessibility.py && echo "PASS: accessibility" || echo "FAIL: accessibility"
       - name: Syntax check
         run: python -m py_compile app.py config.py models.py routes/*.py utils/*.py
+<<<<<<< HEAD
       - run: echo "PASS: Day3 Backend Check completed"
+=======
+      - run: echo "PASS: Day3 Backend Check completed"
+>>>>>>> 43804e17ee6d5fe9e0006598a3d8c80e2292b65b
